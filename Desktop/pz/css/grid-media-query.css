@@ -1,0 +1,25 @@
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {
+    .app-main-wrap {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-gap: var(--gutter-width);
+    }
+
+    .app-main-wrap .app-main {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .app-main-wrap .app-sidebar {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {}
